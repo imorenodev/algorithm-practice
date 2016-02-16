@@ -13,7 +13,7 @@ var Person = function(name) {
     lastName = name;
   };
   this.getFullName = function() {
-    return firstName, lastnName;
+    return firstName + " " + lastName;
   };
   this.getFirstName = function() {
     return firstName;
